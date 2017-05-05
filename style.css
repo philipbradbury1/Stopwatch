@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey; 
+	font-family: Ariel, Charcoal, sans-serif;
+	color: #2f3943;
+}
+
+#container{
+	width: 500px;
+	height: 525px;
+	background-color: #fff;
+	margin: 50px auto;
+}
+
+header{
+background: #2f3943;
+margin: 0;
+height: 80px;
+line-height: 60px;
+color: white;
+text-align: center;
+}
+
+h1{
+	padding-top: 10px;
+	margin: 0;
+}
+
+.stopwatch, .digitalwatch{
+	font-size: 5em;
+	width: 100%;
+	text-align: center;
+}
+
+.controls{
+	width: 100%;
+	text-align: center;
+}
+
+br{
+	clear: left;
+}
+
+#startButton , #stopButton, #resetButton,#startButton2 , #stopButton2, #resetButton2{
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #e1675a;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+#startButton, #startButton2{
+	background: #6ce15a;
+}
+
+#resetButton, #resetButton2 {
+	background: #2f3943;
+}
+
+
+#addButton:hover, #removeButton:hover {
+  background: #ca5d4e;
+  text-decoration: none;
+}
+
+
